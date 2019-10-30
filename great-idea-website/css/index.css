@@ -65,55 +65,78 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-
 nav {
-	width: 75%;
-	margin: 0;
-	text-align: justify;
-	display: inline;
+	vertical-align: middle;
+	width: 70%;
+	margin: 3% 0% 8% 3%;
+	text-align: left;
+	display: inline-block;
 }
 
 nav a {
 	color: lightgrey;
-	margin: 3%;
-	font-size: 14px;
+	margin: 0% 4.3% 0% 4.3%;
+	font-size: 12.5px;
+}
+
+.logobox {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0% 0% 4% 3%;
 }
 
 .logo {
-	margin: 0% 0% 0 4%;
-	padding: px 0px 0px 0px;
+	margin: 0% 0% 0% 0%;
+	padding: 0px 0px 0px 0px;
 	
 }
 
 h1 {
-	font-size: 60px;
+	padding: 0 0 0 0;
+	font-size: 70px;
 	margin: 0;
 	text-align: center;
 }
 
 .box {
+	padding: 10px 0 0 0;
 	display: inline-block;
+	height: 25%;
 	width: 50%;
+	vertical-align: middle;
 	text-align: center;
 }
 
-.box img {
-	text-align: right
+.circle {
+	vertical-align: middle;
+	margin: 0 2% 5% 4%;
+	display: inline-block;
+	text-align: right;
+	width: 35%;
 }
 
 .boxp {
-	width: 25%;
-	margin: 0;
+	width: 30%;
+	margin: 20px 0px 0px 160px;
 	border: solid black 1px;
-	padding: 4px 10px;
+	padding: 4px 16px;
 	text-align: center;
 }
 
+.middle {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.middle img {
+	display: inline-block;
+}
 
 .topsec {
-	width: 40%;
-	margin: 3%;
+	width: 45%;
+	margin: 2%;
 	display: inline-block;
+	text-align: left;
 
 }
 
@@ -121,6 +144,7 @@ h1 {
 	width: 27%;
 	margin: 3%;
 	display: inline-block;
+	text-align: left;
 }
 
 address {
